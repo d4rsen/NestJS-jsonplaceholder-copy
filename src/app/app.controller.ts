@@ -7,6 +7,8 @@ export class AppController {
 
   @Get()
   index(@Res() res) {
-    res.status(302).redirect('https://d4rsen.vercel.app/');
+    res.send(
+      'Available routes: /albums, /comments, /photos, /posts, /todos, /users',
+    );
   }
 }
