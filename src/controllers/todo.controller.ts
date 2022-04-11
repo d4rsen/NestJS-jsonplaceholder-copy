@@ -2,7 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 import { Todo } from '../interfaces/data.interface';
 import { TODOS } from '../database/todos';
 
-@Controller('controller')
+@Controller('todos')
 export class TodoController {
   @Get()
   findAll(): Todo[] {
