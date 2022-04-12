@@ -1,4 +1,4 @@
-## source code for https://jsonplaceholder-copy.vercel.app/todos
+## source code for https://jsonplaceholder-copy.vercel.app/
 
 ## To run project :
 
