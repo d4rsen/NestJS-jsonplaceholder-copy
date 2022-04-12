@@ -1,5 +1,6 @@
 import { Controller, Get, Res } from '@nestjs/common';
 import { AppService } from './app.service';
+import path from 'path';
 
 @Controller()
 export class AppController {
@@ -7,8 +8,6 @@ export class AppController {
 
   @Get()
   index(@Res() res) {
-    res.send(
-      'Available routes: /albums, /comments, /photos, /posts, /todos, /users',
-    );
+    res.sendFile(`${process.env.PWD}/src/index.html`);
   }
 }
