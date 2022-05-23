@@ -35,7 +35,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '24 8 * * 3'
+    - cron: '45 16 * * 1'
 
 permissions:
   contents: read

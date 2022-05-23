@@ -31,7 +31,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
-    - cron: '17 17 * * 3'
+    - cron: '40 7 * * 3'
 
 permissions:
   contents: read
